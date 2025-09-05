@@ -1,7 +1,6 @@
-export class Player {
-    constructor() {
-      
+class Player {
+  name;
+    constructor(name) {
+      this.name = name;
     }
-  
-    
   }
